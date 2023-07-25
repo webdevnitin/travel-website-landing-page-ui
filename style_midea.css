@@ -1,0 +1,215 @@
+/* MEDIA QUERRY FOR HEADER (BACKGROUND ,NAVIGATION BAR)  */
+
+@media (max-width: 650px) {
+
+    #background-div {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+    #logo {
+        width: 14vw;
+        position: relative;
+        top: 10px;
+    }
+
+    #navigation {
+        position: relative;
+        top: 10px;
+    }
+
+    #navigation ul li {
+        display: none;
+    }
+
+    #ham_icon {
+        width: 8vw;
+        display: block;
+    }
+}
+
+/* MEDIA QUERRY FOR HEADER (HEADING)  */
+@media (max-width: 650px) {
+
+
+    #heading {
+        width: 90vw;
+        height: 50%;
+        top: 25vw;
+        left: 5vw;
+    }
+
+    #heading h2 {
+        font-size: 6.5vw;
+    }
+
+    #heading h1 {
+        font-size: 7.2vw;
+        margin-bottom: 10px;
+    }
+
+    #heading p {
+        font-size: 6vw;
+        line-height: 3.6vw;
+    }
+
+    #heading button {
+        padding: 0.8vw 2.5vw;
+        margin-top: 20px;
+        font-size: 3.5vw;
+    }
+}
+
+
+/* MEDIA QUERRY FOR MIDLE CONTENT SECTION BOXES  */
+@media (max-width: 650px) {
+    section {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .inner_section {
+        width: 75vw;
+        height: 35vw;
+        box-shadow: 0px 0px 10px 0px black;
+    }
+
+    .inner_section:hover {
+        border-radius: 4vw;
+        width: 85vw;
+        height: 42vw;
+        transition: 0.5s;
+    }
+
+    .inner_section h2 {
+        font-size: 5vw;
+        font-weight: 600;
+        margin-top: 2.5vw;
+        margin-left: 30%;
+    }
+
+    .inner_section:hover h2 {
+        font-size: 5.5vw;
+        margin-top: 3vw;
+        margin-left: 32%;
+    }
+
+    .inner_section h3 {
+        font-size: 4vw;
+        font-weight: 550;
+        margin-top: 0.2vw;
+        margin-left: 40%;
+    }
+
+    .inner_section:hover h3 {
+        font-size: 5vw;
+        margin-top: 0.6vw;
+        margin-left: 3vw;
+    }
+
+    .inner_section p {
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin-top: 1vw;
+        margin-left: 1vw;
+    }
+
+    .inner_section:hover p {
+        font-size: 4vw;
+        margin-top: 1.8vw;
+        margin-left: 3vw;
+    }
+
+    #section-4 {
+        display: block;
+    }
+}
+
+
+/* MEDIA QUERRY FOR FOOTER SECTION */
+@media (max-width: 650px) {
+
+    footer {
+        height: 90%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+     
+    /* Box One */
+    #footer-para {
+        height: 28vw;
+        width: 70vw;
+        top: 30%;
+    }
+    #footer-paragraph {
+        width: 60vw;
+        height: 14.5vw;
+    }
+    #footer-paragraph p {
+        font-size: 3vw;
+        color: white;
+    }
+    #footer-buttons {
+        width: 45vw;
+        gap: 2vw;
+        margin-top: 1vw;
+        left: 12vw;
+    }
+    #footer-buttons div {
+        border-radius: 3px;
+        width: 10vw;
+        height: 5vw;
+    }
+    #footer-buttons div p {
+        font-size: 2.5vw;
+    }
+ 
+    /* Box Two  */
+    #footer-content {
+        height: 28vw;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #content-number {
+        width: 65vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        left: 2vw;
+    }
+    #content-number h1 {
+        font-size: 5.8vw;
+    }
+    #content-para1 {
+        font-size: 2.9vw;
+    }
+    #content-para2 {
+        margin-top: 1vw;
+        font-size: 2.7vw;
+    }
+    #content-buttons {
+        width: 29vw;
+        gap: 2.5vw;
+        left: 1.5vw;
+        margin-top: 1.6vw;
+    }
+    #content-buttons div {
+        border: 1px solid white;
+        width: 6.2vw;
+        height: 6.2vw;
+    }
+    #content-buttons div p {
+        font-size: 2.5vw;
+    }
+
+}
